@@ -1,0 +1,213 @@
+[
+    {
+        "type": "single_choice",
+        "question": "What is the capital of France?",
+        "options": [
+            "Madrid",
+            "Paris",
+            "Rome",
+            "Berlin"
+        ],
+        "correct_answer": "Paris"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "Which of the following are programming languages? (Select all that apply)",
+        "options": [
+            "Python",
+            "Java",
+            "HTML",
+            "English"
+        ],
+        "correct_answers": [
+            "Python",
+            "Java"
+        ]
+    },
+    {
+        "type": "true_false",
+        "question": "The Earth is flat.",
+        "correct_answer": "False"
+    },
+    {
+        "type": "code_snippet",
+        "question": "What will the following Python code output?\n```python\nprint(2 + 3 * 4)\n```",
+        "options": [
+            "14",
+            "20",
+            "11",
+            "10"
+        ],
+        "correct_answer": "11"
+    },
+    {
+        "type": "single_choice",
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": [
+            "Charles Dickens",
+            "William Shakespeare",
+            "Jane Austen",
+            "Mark Twain"
+        ],
+        "correct_answer": "William Shakespeare"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "Which of the following are valid HTML tags? (Select all that apply)",
+        "options": [
+            "<div>",
+            "<span>",
+            "<button>",
+            "<style>"
+        ],
+        "correct_answers": [
+            "<div>",
+            "<span>",
+            "<button>",
+            "<style>"
+        ]
+    },
+    {
+        "type": "true_false",
+        "question": "JavaScript is a statically typed language.",
+        "correct_answer": "False"
+    },
+    {
+        "type": "code_snippet",
+        "question": "What is the output of the following code?\n```python\nx = [1, 2, 3]\nprint(x[2:])\n```",
+        "options": [
+            "[2, 3]",
+            "[1, 2, 3]",
+            "[3]",
+            "[1, 2]"
+        ],
+        "correct_answer": "[2, 3]"
+    },
+    {
+        "type": "single_choice",
+        "question": "Which element is used to create a hyperlink in HTML?",
+        "options": [
+            "<a>",
+            "<link>",
+            "<href>",
+            "<anchor>"
+        ],
+        "correct_answer": "<a>"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "Which of these are database management systems? (Select all that apply)",
+        "options": [
+            "MySQL",
+            "MongoDB",
+            "SQLite",
+            "WordPress"
+        ],
+        "correct_answers": [
+            "MySQL",
+            "MongoDB",
+            "SQLite"
+        ]
+    },
+    {
+        "type": "true_false",
+        "question": "Python is an interpreted language.",
+        "correct_answer": "True"
+    },
+    {
+        "type": "code_snippet",
+        "question": "What will be printed by this JavaScript code?\n```javascript\nlet x = 5;\nconsole.log(x + \"10\");\n```",
+        "options": [
+            "510",
+            "15",
+            "5 + 10",
+            "Error"
+        ],
+        "correct_answer": "510"
+    },
+    {
+        "type": "single_choice",
+        "question": "What is the result of 2^3 in most programming languages (excluding special libraries)?",
+        "options": [
+            "6",
+            "8",
+            "5",
+            "3"
+        ],
+        "correct_answer": "8"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "Which of the following are features of object-oriented programming? (Select all that apply)",
+        "options": [
+            "Encapsulation",
+            "Polymorphism",
+            "Inheritance",
+            "Abstraction"
+        ],
+        "correct_answers": [
+            "Encapsulation",
+            "Polymorphism",
+            "Inheritance",
+            "Abstraction"
+        ]
+    },
+    {
+        "type": "true_false",
+        "question": "HTML is a programming language.",
+        "correct_answer": "False"
+    },
+    {
+        "type": "code_snippet",
+        "question": "What will the following Python code output?\n```python\nfor i in range(3):\n    print(i)\n```",
+        "options": [
+            "0 1 2",
+            "1 2 3",
+            "1 2",
+            "0 1"
+        ],
+        "correct_answer": "0 1 2"
+    },
+    {
+        "type": "single_choice",
+        "question": "Which symbol is used for comments in Python?",
+        "options": [
+            "#",
+            "//",
+            "/*",
+            "--"
+        ],
+        "correct_answer": "#"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "Which of the following are famous JavaScript frameworks? (Select all that apply)",
+        "options": [
+            "React",
+            "Angular",
+            "Vue.js",
+            "Node.js"
+        ],
+        "correct_answers": [
+            "React",
+            "Angular",
+            "Vue.js"
+        ]
+    },
+    {
+        "type": "true_false",
+        "question": "The function `print()` in Python outputs text to the console.",
+        "correct_answer": "True"
+    },
+    {
+        "type": "code_snippet",
+        "question": "What will be the output of this Java code?\n```java\nint x = 5;\nSystem.out.println(x * 2);\n```",
+        "options": [
+            "10",
+            "25",
+            "2",
+            "Error"
+        ],
+        "correct_answer": "10"
+    }
+]
