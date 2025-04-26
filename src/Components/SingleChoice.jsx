@@ -1,6 +1,7 @@
 import React from 'react'
 
-const SingleChoice = ({options, question}) => {
+const SingleChoice = ({ options, question }) => {
+  
   return (
     <div>
       {

@@ -1,8 +1,20 @@
 import React from 'react'
 
-const CodeSnippet = () => {
+const CodeSnippet = ({ options, question }) => {
+  
   return (
-    <div>CodeSnippet</div>
+    <div>
+      {
+        options.map((option,index) => (
+          <div key={index}>
+            <label>
+              <input type='radio' value={option} name={question} />
+              {option}
+            </label>
+          </div>
+        ))
+      }
+    </div>
   )
 }
 

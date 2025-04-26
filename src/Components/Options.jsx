@@ -20,7 +20,7 @@ const Options = ({ options }) => {
     )
   } else {
     return (
-      <CodeSnippet options = {options[1]} />
+      <CodeSnippet options = {options[1]} question = {options[2]} />
     )
   }
 }
