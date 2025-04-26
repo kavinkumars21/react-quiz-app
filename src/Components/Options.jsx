@@ -8,7 +8,7 @@ const Options = ({ options }) => {
 
   if(options[0] === 'single_choice') {
     return (
-      <SingleChoice options = {options[1]} question = {options[2]} />
+      <SingleChoice options = {options[1]} question = {options[2]} crtAnswers = {options[3]} />
     )
   } else if (options[0] === 'multiple_choice') {
     return (

@@ -14,12 +14,12 @@ const QuizCard = ({ mcq }) => {
                 <div>
                     <Question questions = {mcq.question} type = {mcq.type} />
                 </div>
-                <div className='my-5'>
-                    <Options options = {[mcq.type, mcq.options, mcq.question]} />
+                <div className='mt-5'>
+                    <Options options = {[mcq.type, mcq.options, mcq.question, mcq.correct_answer]} />
                 </div>
-                <div>
+                {/* <div>
                     <CorrectAnswer answer = {mcq.correct_answer} answers = {mcq.correct_answers} />
-                </div>
+                </div> */}
             </div>
         </div>
       ))
